@@ -1,0 +1,35 @@
+{
+  "error": "",
+  "message": "",
+  "status": "success",
+  "statusCode": 200,
+  "meta": {
+    "page": "login",
+    "page_version": "1.2.0",
+    "language": "hi",
+    "region": "IN",
+    "generated_at": "2025-04-07T10:30:00Z",
+    "cache_ttl_seconds": 0,
+    "request_id": "req_login_9e2f7a1b"
+  },
+  "response": {
+    "auth_code": {
+      "code": "ABP20235",
+      "expires_in_seconds": 120,
+      "generated_at": "2025-04-07T10:30:00Z",
+      "refresh_url": "/v1/auth/code/refresh",
+      "poll_url": "/v1/auth/code/status",
+      "poll_interval_seconds": 3
+    },
+    "qr_code": {
+      "image_url": "https://api.abplive.com/v1/auth/qr/image?token=qr_tok_xyz789abc&size=220",
+      "size": 220,
+      "generate_url": "/v1/auth/qr/generate",
+      "poll_url": "/v1/auth/qr/status",
+      "poll_interval_seconds": 3,
+      "expires_in_seconds": 120,
+      "generated_at": "2025-04-07T10:30:00Z",
+      "deep_link_url": "https://abplive.com/auth/tv?token=qr_tok_xyz789abc"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "error": "",
+  "message": "",
+  "status": "success",
+  "statusCode": 200,
+  "meta": {
+    "page": "who_is_watching",
+    "page_version": "1.1.0",
+    "language": "hi",
+    "region": "IN",
+    "generated_at": "2025-04-07T10:30:00Z",
+    "cache_ttl_seconds": 0,
+    "request_id": "req_profiles_3c8d9e1f",
+    "profile": {
+      "id": "profile_001",
+      "kids_mode": false,
+      "subscription_tier": "free"
+    }
+  },
+  "response": [
+    {
+      "id": "profile_kids",
+      "type": "kids",
+      "name": {
+        "hi": "बच्चे",
+        "en": "Kids"
+      },
+      "display_name": "Kids",
+      "avatar": {
+        "url": "https://cdn.abplive.com/avatars/kids_avatar_orange.png",
+        "type": "illustration",
+        "width": 160,
+        "height": 160
+      },
+      "kids_mode": true,
+      "is_selected": false,
+      "is_default": false,
+      "is_locked": false,
+      "pin_required": false
+    },
+    {
+      "id": "profile_001",
+      "type": "user",
+      "name": {
+        "hi": "गौरव",
+        "en": "Gaurav"
+      },
+      "display_name": "Gaurav",
+      "avatar": {
+        "url": "https://cdn.abplive.com/avatars/user/profile_001.jpg",
+        "type": "photo",
+        "width": 160,
+        "height": 160,
+        "fallback_url": "https://cdn.abplive.com/avatars/default_avatar_male.png"
+      },
+      "kids_mode": false,
+      "is_selected": true,
+      "is_default": true,
+      "is_locked": false,
+      "pin_required": false
+    }
+  ]
+}

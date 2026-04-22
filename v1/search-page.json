@@ -1,0 +1,216 @@
+{
+  "error": "",
+  "message": "",
+  "status": "success",
+  "statusCode": 200,
+  "meta": {
+    "page": "search",
+    "page_version": "1.3.0",
+    "language": "hi",
+    "region": "IN",
+    "generated_at": "2025-04-07T10:30:00Z",
+    "cache_ttl_seconds": 60,
+    "next_refresh_at": "2025-04-07T10:31:00Z",
+    "request_id": "req_search_8f2a1b5c",
+    "profile": {
+      "id": "profile_001",
+      "kids_mode": false,
+      "subscription_tier": "free"
+    }
+  },
+  "response": {
+    "recent_searches": [
+      {
+        "id": "recent_001",
+        "query": "Sandeep Chaudhary",
+        "type": "query",
+        "timestamp": "2025-04-07T09:45:00Z"
+      },
+      {
+        "id": "recent_002",
+        "query": "IPL 2025 Highlights",
+        "type": "query",
+        "timestamp": "2025-04-07T08:30:00Z"
+      },
+      {
+        "id": "recent_003",
+        "query": "बजट 2025",
+        "type": "query",
+        "timestamp": "2025-04-06T20:15:00Z"
+      }
+    ],
+    "trending_searches": [
+      { "id": "trend_s_001", "query": "PM Modi Speech", "rank": 1 },
+      { "id": "trend_s_002", "query": "Pahalgam Attack", "rank": 2 },
+      { "id": "trend_s_003", "query": "IPL CSK vs MI", "rank": 3 },
+      { "id": "trend_s_004", "query": "Budget 2025", "rank": 4 },
+      { "id": "trend_s_005", "query": "Pradhanmantri series", "rank": 5 }
+    ],
+    "search_results": {
+      "query": "",
+      "total_results": 0,
+      "api_url": "/v1/search",
+      "results_page_size": 20,
+      "sections": [
+        {
+          "id": "results_videos",
+          "type": "horizontal_rail",
+          "content_type": "video",
+          "card_type": 2,
+          "see_all": {
+            "label": { "hi": "सभी देखें", "en": "See All" },
+            "action_type": "navigate",
+            "route": "/search/results?q={query}&type=video"
+          },
+          "data": [
+            {
+              "id": 3080960,
+              "title": "BREAKING NEWS: छात्रा के कपड़ों पर स्पर्म मिले — फोरेंसिक रिपोर्ट",
+              "slug": "https://appapi-beta.abplive.com?section=video_detail&lang=hindi&id=3080960&platform=tvos",
+              "news_type": "video",
+              "thumbnail_image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/01/28/1e4d7eec24f6ab92ce9270387ef6ebdc1769594589266158_original.jpg?impolicy=abp_cdn&imwidth=410",
+              "poster_image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/01/28/1e4d7eec24f6ab92ce9270387ef6ebdc1769594589266158_original.jpg",
+              "lg_poster_image": "https://feedslg.abplive.in/onecms/images/uploaded-images/2026/01/28/1e4d7eec24f6ab92ce9270387ef6ebdc1769594589266158_original.jpg",
+              "description": "Breaking news update — forensic report details",
+              "video_duration": "2:40 Min",
+              "date": "2026-01-28 03:33:21",
+              "category": "national",
+              "is_live": 0,
+              "ads_url": "https://pubads.g.doubleclick.net/gampad/ads?iu=/22876760397/connected_tv_fs_vod_preroll&tfcd=0&npa=0&plcmt=1&sz=640x480&cust_params=site%3DHindi%26category%3DNews%26device%3Dctv&gdfp_req=1&output=vast&ad_rule=0&unviewed_position_start=1&env=vp&impl=s&correlator=",
+              "midRoll": "https://pubads.g.doubleclick.net/gampad/ads?iu=/22876760397/Connected_TV_FS_VOD_Midroll&tfcd=0&npa=0&plcmt=1&sz=640x480&cust_params=site%3DHindi%26category%3DNews%26device%3Dctv&gdfp_req=1&output=vast&ad_rule=0&unviewed_position_start=1&env=vp&impl=s&correlator="
+            },
+            {
+              "id": 3080958,
+              "title": "बंकिम चंद्र चट्टोपाध्याय और उनकी रचना — वंदे मातरम पर झांकी",
+              "slug": "https://appapi-beta.abplive.com?section=video_detail&lang=hindi&id=3080958&platform=tvos",
+              "news_type": "video",
+              "thumbnail_image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/01/28/13570f973c6c250b2047face76720d431769594390116158_original.jpg?impolicy=abp_cdn&imwidth=410",
+              "poster_image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/01/28/13570f973c6c250b2047face76720d431769594390116158_original.jpg",
+              "lg_poster_image": "https://feedslg.abplive.in/onecms/images/uploaded-images/2026/01/28/13570f973c6c250b2047face76720d431769594390116158_original.jpg",
+              "description": "बंकिम चंद्र की प्रेरणादायक रचना का इतिहास",
+              "video_duration": "2:40 Min",
+              "date": "2026-01-28 03:30:00",
+              "category": "national",
+              "is_live": 0,
+              "ads_url": "https://pubads.g.doubleclick.net/gampad/ads?iu=/22876760397/connected_tv_fs_vod_preroll&tfcd=0&npa=0&plcmt=1&sz=640x480&cust_params=site%3DHindi%26category%3DNews%26device%3Dctv&gdfp_req=1&output=vast&ad_rule=0&unviewed_position_start=1&env=vp&impl=s&correlator=",
+              "midRoll": "https://pubads.g.doubleclick.net/gampad/ads?iu=/22876760397/Connected_TV_FS_VOD_Midroll&tfcd=0&npa=0&plcmt=1&sz=640x480&cust_params=site%3DHindi%26category%3DNews%26device%3Dctv&gdfp_req=1&output=vast&ad_rule=0&unviewed_position_start=1&env=vp&impl=s&correlator="
+            },
+            {
+              "id": 3080940,
+              "title": "ओवैसी की पार्टी की 'पोस्टर गर्ल' — विशेष रिपोर्ट",
+              "slug": "https://appapi-beta.abplive.com?section=video_detail&lang=hindi&id=3080940&platform=tvos",
+              "news_type": "video",
+              "thumbnail_image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/01/28/2d6a7a751a86a02b5d6f66e4a4f68a351769592442667158_original.jpg?impolicy=abp_cdn&imwidth=410",
+              "poster_image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/01/28/2d6a7a751a86a02b5d6f66e4a4f68a351769592442667158_original.jpg",
+              "lg_poster_image": "https://feedslg.abplive.in/onecms/images/uploaded-images/2026/01/28/2d6a7a751a86a02b5d6f66e4a4f68a351769592442667158_original.jpg",
+              "description": "ओवैसी पार्टी की नई युवा नेता की कहानी",
+              "video_duration": "2:40 Min",
+              "date": "2026-01-28 02:57:38",
+              "category": "politics",
+              "is_live": 0,
+              "ads_url": "https://pubads.g.doubleclick.net/gampad/ads?iu=/22876760397/connected_tv_fs_vod_preroll&tfcd=0&npa=0&plcmt=1&sz=640x480&cust_params=site%3DHindi%26category%3DNews%26device%3Dctv&gdfp_req=1&output=vast&ad_rule=0&unviewed_position_start=1&env=vp&impl=s&correlator=",
+              "midRoll": "https://pubads.g.doubleclick.net/gampad/ads?iu=/22876760397/Connected_TV_FS_VOD_Midroll&tfcd=0&npa=0&plcmt=1&sz=640x480&cust_params=site%3DHindi%26category%3DNews%26device%3Dctv&gdfp_req=1&output=vast&ad_rule=0&unviewed_position_start=1&env=vp&impl=s&correlator="
+            },
+            {
+              "id": 3080937,
+              "title": "आपसी विवाद में यात्री को मारा चाकू — मुंबई लोकल ट्रेन में हंगामा",
+              "slug": "https://appapi-beta.abplive.com?section=video_detail&lang=hindi&id=3080937&platform=tvos",
+              "news_type": "video",
+              "thumbnail_image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/01/28/a21576df028271ac78d5ec53ce8707961769592266801158_original.jpg?impolicy=abp_cdn&imwidth=410",
+              "poster_image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/01/28/a21576df028271ac78d5ec53ce8707961769592266801158_original.jpg",
+              "lg_poster_image": "https://feedslg.abplive.in/onecms/images/uploaded-images/2026/01/28/a21576df028271ac78d5ec53ce8707961769592266801158_original.jpg",
+              "description": "मुंबई लोकल ट्रेन में चाकूबाजी, आरोपी गिरफ्तार",
+              "video_duration": "2:40 Min",
+              "date": "2026-01-28 02:54:39",
+              "category": "crime",
+              "is_live": 0,
+              "ads_url": "https://pubads.g.doubleclick.net/gampad/ads?iu=/22876760397/connected_tv_fs_vod_preroll&tfcd=0&npa=0&plcmt=1&sz=640x480&cust_params=site%3DHindi%26category%3DNews%26device%3Dctv&gdfp_req=1&output=vast&ad_rule=0&unviewed_position_start=1&env=vp&impl=s&correlator=",
+              "midRoll": "https://pubads.g.doubleclick.net/gampad/ads?iu=/22876760397/Connected_TV_FS_VOD_Midroll&tfcd=0&npa=0&plcmt=1&sz=640x480&cust_params=site%3DHindi%26category%3DNews%26device%3Dctv&gdfp_req=1&output=vast&ad_rule=0&unviewed_position_start=1&env=vp&impl=s&correlator="
+            }
+          ]
+        },
+        {
+          "id": "results_shorts",
+          "type": "horizontal_rail",
+          "content_type": "short_video",
+          "card_type": 7,
+          "see_all": {
+            "label": { "hi": "सभी देखें", "en": "See All" },
+            "action_type": "navigate",
+            "route": "/search/results?q={query}&type=short"
+          },
+          "data": [
+            {
+              "id": "short_s_001",
+              "title": "मैं दिल्ली दो दिलों",
+              "slug": "https://appapi-beta.abplive.com?section=video_detail&lang=hindi&id=short_s_001&platform=tvos",
+              "news_type": "short_video",
+              "thumbnail_image": "https://cdn.abplive.com/shorts/delhi_short_180x320.jpg",
+              "poster_image": "https://cdn.abplive.com/shorts/delhi_short_180x320.jpg",
+              "lg_poster_image": "https://cdn.abplive.com/shorts/delhi_short_180x320.jpg",
+              "description": "दिल्ली की खबरें शॉर्ट फॉर्मेट में",
+              "video_duration": 58,
+              "date": "2026-01-28 04:00:00",
+              "category": "national",
+              "is_live": 0,
+              "channel_logo": "https://cdn.abplive.com/brand/channels/abp_news_logo_small.png",
+              "ads_url": "https://pubads.g.doubleclick.net/gampad/ads?iu=/22876760397/connected_tv_fs_vod_preroll&tfcd=0&npa=0&plcmt=1&sz=640x480&cust_params=site%3DHindi%26category%3DNews%26device%3Dctv&gdfp_req=1&output=vast&ad_rule=0&unviewed_position_start=1&env=vp&impl=s&correlator=",
+              "midRoll": ""
+            },
+            {
+              "id": "short_s_002",
+              "title": "जय दीप मंत्री जी",
+              "slug": "https://appapi-beta.abplive.com?section=video_detail&lang=hindi&id=short_s_002&platform=tvos",
+              "news_type": "short_video",
+              "thumbnail_image": "https://cdn.abplive.com/shorts/mantri_short_180x320.jpg",
+              "poster_image": "https://cdn.abplive.com/shorts/mantri_short_180x320.jpg",
+              "lg_poster_image": "https://cdn.abplive.com/shorts/mantri_short_180x320.jpg",
+              "description": "मंत्री जी का शानदार भाषण",
+              "video_duration": 45,
+              "date": "2026-01-28 03:30:00",
+              "category": "politics",
+              "is_live": 0,
+              "channel_logo": "https://cdn.abplive.com/brand/channels/abp_news_logo_small.png",
+              "ads_url": "https://pubads.g.doubleclick.net/gampad/ads?iu=/22876760397/connected_tv_fs_vod_preroll&tfcd=0&npa=0&plcmt=1&sz=640x480&cust_params=site%3DHindi%26category%3DNews%26device%3Dctv&gdfp_req=1&output=vast&ad_rule=0&unviewed_position_start=1&env=vp&impl=s&correlator=",
+              "midRoll": ""
+            },
+            {
+              "id": "short_s_003",
+              "title": "मैं दिल्ली दो दिलों — Part 2",
+              "slug": "https://appapi-beta.abplive.com?section=video_detail&lang=hindi&id=short_s_003&platform=tvos",
+              "news_type": "short_video",
+              "thumbnail_image": "https://cdn.abplive.com/shorts/delhi_short_2_180x320.jpg",
+              "poster_image": "https://cdn.abplive.com/shorts/delhi_short_2_180x320.jpg",
+              "lg_poster_image": "https://cdn.abplive.com/shorts/delhi_short_2_180x320.jpg",
+              "description": "दिल्ली की और खबरें",
+              "video_duration": 172,
+              "date": "2026-01-28 03:00:00",
+              "category": "national",
+              "is_live": 0,
+              "channel_logo": "https://cdn.abplive.com/brand/channels/abp_news_logo_small.png",
+              "ads_url": "https://pubads.g.doubleclick.net/gampad/ads?iu=/22876760397/connected_tv_fs_vod_preroll&tfcd=0&npa=0&plcmt=1&sz=640x480&cust_params=site%3DHindi%26category%3DNews%26device%3Dctv&gdfp_req=1&output=vast&ad_rule=0&unviewed_position_start=1&env=vp&impl=s&correlator=",
+              "midRoll": ""
+            },
+            {
+              "id": "short_s_004",
+              "title": "मैं दिल्ली — Breaking Short",
+              "slug": "https://appapi-beta.abplive.com?section=video_detail&lang=hindi&id=short_s_004&platform=tvos",
+              "news_type": "short_video",
+              "thumbnail_image": "https://cdn.abplive.com/shorts/delhi_short_3_180x320.jpg",
+              "poster_image": "https://cdn.abplive.com/shorts/delhi_short_3_180x320.jpg",
+              "lg_poster_image": "https://cdn.abplive.com/shorts/delhi_short_3_180x320.jpg",
+              "description": "दिल्ली ब्रेकिंग न्यूज़",
+              "video_duration": 228,
+              "date": "2026-01-28 02:45:00",
+              "category": "national",
+              "is_live": 0,
+              "channel_logo": "https://cdn.abplive.com/brand/channels/abp_news_logo_small.png",
+              "ads_url": "https://pubads.g.doubleclick.net/gampad/ads?iu=/22876760397/connected_tv_fs_vod_preroll&tfcd=0&npa=0&plcmt=1&sz=640x480&cust_params=site%3DHindi%26category%3DNews%26device%3Dctv&gdfp_req=1&output=vast&ad_rule=0&unviewed_position_start=1&env=vp&impl=s&correlator=",
+              "midRoll": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "error": "",
+  "message": "",
+  "status": "success",
+  "statusCode": 200,
+  "meta": {
+    "page": "language_picker",
+    "page_version": "1.0.0",
+    "language": "hi",
+    "region": "IN",
+    "generated_at": "2025-04-07T10:00:00Z",
+    "cache_ttl_seconds": 86400,
+    "next_refresh_at": "2025-04-08T10:00:00Z",
+    "request_id": "req_lang_4a1b2c3d"
+  },
+  "response": [
+    {
+      "id": 1,
+      "title": "Hindi",
+      "language": "abp न्यूज़",
+      "language_slug": "hindi",
+      "code": "hi",
+      "label_native": "हिंदी",
+      "thumbnail_image": "https://cdn.abplive.com/images/smart-tv/platforms/abp_news.png",
+      "lg_thumbnail_image": "https://cdnlg.abplive.in/images/smart-tv/platforms/abp_news.png",
+      "channel_logo_url": "https://cdn.abplive.com/brand/channels/abp_news_logo_white.png",
+      "focus_order": 3
+    },
+    {
+      "id": 2,
+      "title": "Bengali",
+      "language": "abp আনন্দ",
+      "language_slug": "bengali",
+      "code": "bn",
+      "label_native": "বাংলা",
+      "thumbnail_image": "https://cdn.abplive.com/images/smart-tv/platforms/abp_bengali.png",
+      "lg_thumbnail_image": "https://cdnlg.abplive.in/images/smart-tv/platforms/abp_bengali.png",
+      "channel_logo_url": "https://cdn.abplive.com/brand/channels/abp_ananda_logo_white.png",
+      "focus_order": 2
+    },
+    {
+      "id": 3,
+      "title": "Marathi",
+      "language": "abp माझा",
+      "language_slug": "marathi",
+      "code": "mr",
+      "label_native": "मराठी",
+      "thumbnail_image": "https://cdn.abplive.com/images/smart-tv/platforms/abp_marathi.png",
+      "lg_thumbnail_image": "https://cdnlg.abplive.in/images/smart-tv/platforms/abp_marathi.png",
+      "channel_logo_url": "https://cdn.abplive.com/brand/channels/abp_majha_logo_white.png",
+      "focus_order": 4
+    },
+    {
+      "id": 4,
+      "title": "Punjabi",
+      "language": "abp ਸਾਂਝਾ",
+      "language_slug": "punjabi",
+      "code": "pa",
+      "label_native": "ਪੰਜਾਬੀ",
+      "thumbnail_image": "https://cdn.abplive.com/images/smart-tv/platforms/abp_punjabi.png",
+      "lg_thumbnail_image": "https://cdnlg.abplive.in/images/smart-tv/platforms/abp_punjabi.png",
+      "channel_logo_url": "https://cdn.abplive.com/brand/channels/abp_sanjha_logo_white.png",
+      "focus_order": 5
+    },
+    {
+      "id": 5,
+      "title": "Ganga",
+      "language": "abp गंगा",
+      "language_slug": "abpganga",
+      "code": "bho",
+      "label_native": "भोजपुरी / UP-Bihar",
+      "thumbnail_image": "https://cdn.abplive.com/images/smart-tv/platforms/abp_ganga.png",
+      "lg_thumbnail_image": "https://cdnlg.abplive.in/images/smart-tv/platforms/abp_ganga.png",
+      "channel_logo_url": "https://cdn.abplive.com/brand/channels/abp_ganga_logo_white.png",
+      "focus_order": 6
+    },
+    {
+      "id": 6,
+      "title": "Gujarati",
+      "language": "abp અસ્મિતા",
+      "language_slug": "gujarati",
+      "code": "gu",
+      "label_native": "ગુજરાતી",
+      "thumbnail_image": "https://cdn.abplive.com/images/smart-tv/platforms/abp_gujarati.png",
+      "lg_thumbnail_image": "https://cdnlg.abplive.in/images/smart-tv/platforms/abp_gujarati.png",
+      "channel_logo_url": "https://cdn.abplive.com/brand/channels/abp_asmita_logo_white.png",
+      "focus_order": 7
+    },
+    {
+      "id": 7,
+      "title": "Tamil",
+      "language": "abp நாடு",
+      "language_slug": "tamil",
+      "code": "ta",
+      "label_native": "தமிழ்",
+      "thumbnail_image": "https://feeds.abplive.com/images/abpnadu.png",
+      "lg_thumbnail_image": "https://feedslg.abplive.in/images/abpnadu.png",
+      "channel_logo_url": "https://cdn.abplive.com/brand/channels/abp_nadu_logo_white.png",
+      "focus_order": 8
+    }
+  ]
+}

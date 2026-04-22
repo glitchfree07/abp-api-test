@@ -1,0 +1,770 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cache_ttl_seconds": 3600,
+    "generated_at": "2025-04-07T10:00:00Z",
+    "request_id": "req_master_001"
+  },
+  "app": {
+    "name": "ABP Live",
+    "bundle_id": {
+      "android_tv": "com.abp.live.tv",
+      "fire_tv": "com.abp.live.firetv",
+      "tizen": "com.abp.live.tizen",
+      "webos": "com.abp.live.webos",
+      "apple_tv": "com.abp.live.tvos"
+    },
+    "min_version": {
+      "android_tv": "1.4.0",
+      "fire_tv": "1.4.0",
+      "tizen": "1.2.0",
+      "webos": "1.2.0",
+      "apple_tv": "1.0.0"
+    },
+    "force_update": false,
+    "maintenance": {
+      "enabled": false,
+      "message": null,
+      "ends_at": null
+    },
+    "store_links": {
+      "fire_tv": "https://www.amazon.com/dp/ABPLIVEFIRETV",
+      "apple_tv": "https://apps.apple.com/in/app/abp-live-tv/id123456790",
+      "smart_tv_guide_url": "https://abplive.com/smarttv-setup"
+    },
+    "deep_link_scheme": "abplive://",
+    "universal_link_domain": "abplive.com",
+    "web_base_url": "https://abplive.com",
+    "cdn_base_url": "https://cdn.abplive.com"
+  },
+  "theme": {
+    "mode": "dark",
+    "dark": {
+      "primary": "#E8000D",
+      "primary_hover": "#FF1A24",
+      "primary_pressed": "#B0000A",
+      "background": "#080809",
+      "surface": "#0F0F11",
+      "surface_raised": "#141417",
+      "surface_focused": "#1E1E22",
+      "border": "rgba(255,255,255,0.06)",
+      "border_focused": "#E8000D",
+      "text_primary": "#F0F0F4",
+      "text_secondary": "#9898A8",
+      "text_muted": "#55555F",
+      "on_primary": "#FFFFFF",
+      "success": "#06D6A0",
+      "warning": "#F7C948",
+      "error": "#FF4D4D",
+      "kids_accent": "#FF8C42",
+      "live_badge": "#E8000D",
+      "premium_badge": "#F7C948",
+      "gradient_hero": [
+        "#E8000D",
+        "#080809"
+      ],
+      "gradient_card_overlay": [
+        "transparent",
+        "rgba(8,8,9,0.95)"
+      ],
+      "shimmer_base": "#141417",
+      "shimmer_highlight": "#1E1E22",
+      "tab_bar_background": "#080809",
+      "tab_bar_border": "rgba(255,255,255,0.08)",
+      "sidebar_background": "#0A0A0C"
+    },
+    "light": {
+      "primary": "#E8000D",
+      "primary_hover": "#FF1A24",
+      "background": "#F5F5F7",
+      "surface": "#FFFFFF",
+      "surface_raised": "#EBEBED",
+      "border": "rgba(0,0,0,0.08)",
+      "text_primary": "#0A0A0B",
+      "text_secondary": "#6B6B78",
+      "text_muted": "#A0A0AA",
+      "on_primary": "#FFFFFF",
+      "tab_bar_background": "#FFFFFF",
+      "tab_bar_border": "rgba(0,0,0,0.10)"
+    },
+    "splash_bg_color": "#080809",
+    "splash_logo_url": "https://cdn.abplive.com/brand/splash_logo.png",
+    "splash_poster_image_url": "https://cdn.abplive.com/brand/splash_poster_image.png",
+    "splash_lg_poster_image_url": "https://cdn.abplive.com/brand/splash_lg_poster_image.png",
+    "splash_logo_dark_url": "https://cdn.abplive.com/brand/splash_logo_dark.png",
+    "favicon_url": "https://cdn.abplive.com/brand/favicon.ico",
+    "app_icon_url": "https://cdn.abplive.com/brand/app_icon.png"
+  },
+  "locale": {
+    "default_language": "hi",
+    "fallback_language": "en",
+    "supported_languages": [
+      {
+        "code": "hi",
+        "label": "हिंदी",
+        "label_en": "Hindi",
+        "rtl": false,
+        "flag": "🇮🇳"
+      },
+      {
+        "code": "mr",
+        "label": "मराठी",
+        "label_en": "Marathi",
+        "rtl": false,
+        "flag": "🇮🇳"
+      },
+      {
+        "code": "te",
+        "label": "తెలుగు",
+        "label_en": "Telugu",
+        "rtl": false,
+        "flag": "🇮🇳"
+      },
+      {
+        "code": "bn",
+        "label": "বাংলা",
+        "label_en": "Bengali",
+        "rtl": false,
+        "flag": "🇮🇳"
+      },
+      {
+        "code": "gu",
+        "label": "ગુજરાતી",
+        "label_en": "Gujarati",
+        "rtl": false,
+        "flag": "🇮🇳"
+      },
+      {
+        "code": "en",
+        "label": "English",
+        "label_en": "English",
+        "rtl": false,
+        "flag": "🌐"
+      }
+    ],
+    "date_format": "DD/MM/YYYY",
+    "time_format": "12h",
+    "timezone": "Asia/Kolkata"
+  },
+  "navigation": {
+      "layout": "sidebar_left",
+      "primary": [
+        {
+          "id": "search",
+          "label": {
+            "en": "Search",
+            "hi": "खोजें"
+          },
+          "icon": "magnifyingglass",
+          "route": "/search",
+          "auth_required": false,
+          "focus_order": 5
+        },
+        {
+          "id": "home",
+          "label": {
+            "en": "Home",
+            "hi": "होम"
+          },
+          "icon": "home",
+          "route": "/",
+          "auth_required": false,
+          "focus_order": 1
+        },
+        {
+          "id": "videos",
+          "label": {
+            "en": "Videos",
+            "hi": "वीडियो"
+          },
+          "icon": "video",
+          "route": "/videos",
+          "auth_required": false,
+          "focus_order": 2
+        },
+        {
+          "id": "shorts",
+          "label": {
+            "en": "Shorts",
+            "hi": "शॉर्ट्स"
+          },
+          "icon": "short",
+          "route": "/shorts",
+          "auth_required": false,
+          "focus_order": 6
+        },
+        {
+          "id": "language",
+          "label": {
+            "en": "Language",
+            "hi": "भाषा"
+          },
+          "icon": "globe",
+          "route": "/settings/language",
+          "auth_required": false,
+          "focus_order": 7,
+          "position": "bottom"
+        },  
+        {
+          "id": "settings",
+          "label": {
+            "en": "Settings",
+            "hi": "सेटिंग्स"
+          },
+          "icon": "gearshape",
+          "route": "/settings",
+          "auth_required": false,
+          "focus_order": 8,
+          "position": "bottom"
+        }
+      ],
+      "settings_menu": {
+        "sections": [
+          {
+            "id": "account",
+            "label": {
+              "en": "Account",
+              "hi": "खाता"
+            },
+            "items": [
+              {
+                "id": "subscription",
+                "label": {
+                  "en": "Subscription & Plans",
+                  "hi": "सदस्यता और योजनाएं"
+                },
+                "icon": "crown",
+                "route": "/settings/plans",
+                "auth_required": true
+              },
+              {
+                "id": "profiles",
+                "label": {
+                  "en": "Manage Profiles",
+                  "hi": "प्रोफाइल प्रबंधन"
+                },
+                "icon": "person_2",
+                "route": "/settings/profiles",
+                "auth_required": true
+              }
+            ]
+          },
+          {
+            "id": "app_preferences",
+            "label": {
+              "en": "App Preferences",
+              "hi": "ऐप सेटिंग्स"
+            },
+            "items": [
+              {
+                "id": "language",
+                "label": {
+                  "en": "App Language",
+                  "hi": "भाषा"
+                },
+                "icon": "globe",
+                "type": "detail_link",
+                "detail_value_key": "locale.active_language_label",
+                "route": "/settings/language"
+              }
+            ]
+          },
+          {
+            "id": "support",
+            "label": {
+              "en": "Support",
+              "hi": "सहायता"
+            },
+            "items": [
+              {
+                "id": "help",
+                "label": {
+                  "en": "Help & Support",
+                  "hi": "सहायता"
+                },
+                "icon": "questionmark_circle",
+                "url": "https://help.abplive.com",
+                "webview": true
+              },
+              {
+                "id": "privacy_policy",
+                "label": {
+                  "en": "Privacy Policy",
+                  "hi": "गोपनीयता नीति"
+                },
+                "icon": "doc_text",
+                "url": "https://abplive.com/privacy",
+                "webview": true
+              },
+              {
+                "id": "terms_of_use",
+                "label": {
+                  "en": "Terms of Use",
+                  "hi": "उपयोग की शर्तें"
+                },
+                "icon": "doc_plaintext",
+                "url": "https://abplive.com/terms",
+                "webview": true
+              },
+              {
+                "id": "about",
+                "label": {
+                  "en": "About ABP Live",
+                  "hi": "ABP Live के बारे में"
+                },
+                "icon": "info_circle",
+                "route": "/settings/about"
+              }
+            ]
+          }
+        ]
+      }
+  },
+  "home": {
+    "fetch_url": "/v1/page/home",
+    "refresh_interval_seconds": 300
+  },
+  "filters": {
+    "home_filters": {
+      "enabled": true,
+      "options": [
+        {
+          "id": "all",
+          "label": {
+            "en": "All",
+            "hi": "सभी"
+          },
+          "icon": null,
+          "default": true
+        },
+        {
+          "id": "live",
+          "label": {
+            "en": "Live TV",
+            "hi": "लाइव टीवी"
+          },
+          "icon": "📺",
+          "default": false
+        },
+        {
+          "id": "news",
+          "label": {
+            "en": "News",
+            "hi": "समाचार"
+          },
+          "icon": "📰",
+          "default": false
+        },
+        {
+          "id": "sports",
+          "label": {
+            "en": "Sports",
+            "hi": "खेल"
+          },
+          "icon": "⚽",
+          "default": false
+        },
+        {
+          "id": "entertainment",
+          "label": {
+            "en": "Entertainment",
+            "hi": "मनोरंजन"
+          },
+          "icon": "🎬",
+          "default": false
+        },
+        {
+          "id": "business",
+          "label": {
+            "en": "Business",
+            "hi": "व्यापार"
+          },
+          "icon": "💹",
+          "default": false
+        },
+        {
+          "id": "kids",
+          "label": {
+            "en": "Kids",
+            "hi": "बच्चे"
+          },
+          "icon": "🧒",
+          "default": false
+        },
+        {
+          "id": "regional",
+          "label": {
+            "en": "Regional",
+            "hi": "क्षेत्रीय"
+          },
+          "icon": "🗺️",
+          "default": false
+        }
+      ]
+    }
+  },
+  "categories": [
+    {
+      "id": "national",
+      "label": {
+        "en": "National",
+        "hi": "राष्ट्रीय"
+      },
+      "slug": "national",
+      "icon_url": "https://cdn.abplive.com/icons/cat_national.svg",
+      "color": "#5B8DEF",
+      "age_restricted": false
+    },
+    {
+      "id": "politics",
+      "label": {
+        "en": "Politics",
+        "hi": "राजनीति"
+      },
+      "slug": "politics",
+      "icon_url": "https://cdn.abplive.com/icons/cat_politics.svg",
+      "color": "#A78BFA",
+      "age_restricted": false
+    },
+    {
+      "id": "sports",
+      "label": {
+        "en": "Sports",
+        "hi": "खेल"
+      },
+      "slug": "sports",
+      "icon_url": "https://cdn.abplive.com/icons/cat_sports.svg",
+      "color": "#06D6A0",
+      "age_restricted": false
+    },
+    {
+      "id": "business",
+      "label": {
+        "en": "Business",
+        "hi": "व्यापार"
+      },
+      "slug": "business",
+      "icon_url": "https://cdn.abplive.com/icons/cat_business.svg",
+      "color": "#F7C948",
+      "age_restricted": false
+    },
+    {
+      "id": "entertainment",
+      "label": {
+        "en": "Entertainment",
+        "hi": "मनोरंजन"
+      },
+      "slug": "entertainment",
+      "icon_url": "https://cdn.abplive.com/icons/cat_entertain.svg",
+      "color": "#F472B6",
+      "age_restricted": false
+    },
+    {
+      "id": "tech",
+      "label": {
+        "en": "Technology",
+        "hi": "तकनीक"
+      },
+      "slug": "tech",
+      "icon_url": "https://cdn.abplive.com/icons/cat_tech.svg",
+      "color": "#FB8B24",
+      "age_restricted": false
+    },
+    {
+      "id": "international",
+      "label": {
+        "en": "International",
+        "hi": "अंतर्राष्ट्रीय"
+      },
+      "slug": "international",
+      "icon_url": "https://cdn.abplive.com/icons/cat_world.svg",
+      "color": "#5B8DEF",
+      "age_restricted": false
+    },
+    {
+      "id": "crime",
+      "label": {
+        "en": "Crime",
+        "hi": "अपराध"
+      },
+      "slug": "crime",
+      "icon_url": "https://cdn.abplive.com/icons/cat_crime.svg",
+      "color": "#E8000D",
+      "age_restricted": true
+    },
+    {
+      "id": "kids",
+      "label": {
+        "en": "Kids",
+        "hi": "बच्चे"
+      },
+      "slug": "kids",
+      "icon_url": "https://cdn.abplive.com/icons/cat_kids.svg",
+      "color": "#FF8C42",
+      "age_restricted": false
+    }
+  ],
+  "search": {
+    "enabled": true,
+    "min_chars": 2,
+    "max_chars": 60,
+    "debounce_ms": 300,
+    "suggestions_limit": 8,
+    "results_page_size": 20,
+    "search_url": "/v1/search",
+    "suggestions_url": "/v1/search/suggestions",
+    "trending_url": "/v1/search/trending",
+    "placeholder_text": {
+      "hi": "खोजें...",
+      "mr": "शोधा...",
+      "en": "Search news, shows, channels..."
+    },
+    "searchable_types": [
+      "article",
+      "video",
+      "live_channel",
+      "show",
+      "anchor"
+    ],
+    "tv_keyboard": {
+      "layout": "qwerty",
+      "voice_search_enabled": true,
+      "voice_search_icon": "mic"
+    }
+  },
+  "plans": {
+    "enabled": false,
+    "currency": "INR",
+    "fetch_url": "/v1/plans",
+    "upgrade_url": "https://abplive.com/subscribe",
+    "paywall_trigger": {
+      "premium_content_badge": true,
+      "interstitial_after_n_free_videos": 3,
+      "interstitial_after_n_free_articles": 5
+    },
+    "free_tier": {
+      "id": "free",
+      "label": {
+        "en": "Free",
+        "hi": "मुफ़्त"
+      },
+      "features": [
+        "Live TV (limited)",
+        "Latest News",
+        "Ads supported"
+      ]
+    },
+    "paid_tiers": [
+      {
+        "id": "premium_monthly",
+        "label": {
+          "en": "Premium",
+          "hi": "प्रीमियम"
+        },
+        "billing_cycle": "monthly",
+        "price": 49,
+        "strike_price": 99,
+        "badge": "POPULAR",
+        "badge_color": "#5B8DEF",
+        "features": [
+          "All Live Channels",
+          "Ad-free",
+          "HD Quality",
+          "5 Profiles",
+          "Download"
+        ],
+        "cta": {
+          "en": "Start Free Trial",
+          "hi": "मुफ़्त ट्रायल शुरू करें"
+        },
+        "trial_days": 7
+      },
+      {
+        "id": "premium_annual",
+        "label": {
+          "en": "Premium Annual",
+          "hi": "सालाना प्रीमियम"
+        },
+        "billing_cycle": "yearly",
+        "price": 399,
+        "strike_price": 588,
+        "badge": "BEST VALUE",
+        "badge_color": "#06D6A0",
+        "features": [
+          "Everything in Premium",
+          "Priority Support",
+          "Early Access"
+        ],
+        "cta": {
+          "en": "Save 32%",
+          "hi": "32% बचाएं"
+        },
+        "trial_days": 14
+      }
+    ],
+    "payment_methods": {
+      "tv": [
+        "qr_upi",
+        "card"
+      ]
+    }
+  },
+  "ads": {
+    "enabled": true,
+    "provider": "google_ima",
+    "partner_id": "pub-XXXXXXXXXXXXXXXX",
+    "ad_partners": [
+      {
+        "id": "google_ima",
+        "type": "video_ad",
+        "enabled": true,
+        "priority": 1
+      }
+    ]
+  },
+  "auth": {
+    "qr_login": {
+      "enabled": true,
+      "poll_interval_seconds": 3,
+      "expiry_seconds": 120,
+      "generate_url": "/v1/auth/qr/generate",
+      "poll_url": "/v1/auth/qr/status"
+    },
+    "session": {
+      "access_token_ttl_seconds": 3600,
+      "refresh_token_ttl_days": 30,
+      "multi_device_limit": 5
+    }
+  },
+  "features": {
+    "qr_login": true,
+    "guest_mode": true,
+    "kids_profile": true,
+    "parental_controls": true,
+    "downloads": false,
+    "pip_mode": false,
+    "chromecast": false,
+    "airplay": false,
+    "share_content": false,
+    "push_notifications": false,
+    "watchlist": true,
+    "continue_watching": true,
+    "ab_test_group": "variant_b"
+  },
+  "partners": {
+    "fetch_url": "/v1/partners",
+    "partners": [
+      {
+        "id": "partner_001",
+        "name": "Zee Business",
+        "logo_url": "https://cdn.abplive.com/partners/zee_business.png",
+        "content_rail_enabled": true,
+        "deeplink": "abplive://partner/zee-business",
+        "sponsored_label": {
+          "en": "In Partnership with Zee Business"
+        }
+      },
+      {
+        "id": "partner_002",
+        "name": "Star Sports",
+        "logo_url": "https://cdn.abplive.com/partners/star_sports.png",
+        "content_rail_enabled": false,
+        "deeplink": "abplive://partner/star-sports",
+        "sponsored_label": {
+          "en": "Sports powered by Star Sports"
+        }
+      }
+    ]
+  },
+  "static_pages": {
+    "terms_of_service": {
+      "label": {
+        "en": "Terms of Service"
+      },
+      "url": "https://abplive.com/terms",
+      "webview": true,
+      "version": "v3.1",
+      "last_updated": "2025-01-15"
+    },
+    "privacy_policy": {
+      "label": {
+        "en": "Privacy Policy"
+      },
+      "url": "https://abplive.com/privacy",
+      "webview": true,
+      "version": "v2.8",
+      "last_updated": "2025-02-01"
+    },
+    "cookie_policy": {
+      "label": {
+        "en": "Cookie Policy"
+      },
+      "url": "https://abplive.com/cookies",
+      "webview": true,
+      "version": "v1.2",
+      "last_updated": "2024-11-10"
+    },
+    "refund_policy": {
+      "label": {
+        "en": "Refund Policy"
+      },
+      "url": "https://abplive.com/refund",
+      "webview": true,
+      "version": "v1.0",
+      "last_updated": "2024-09-01"
+    },
+    "community_guidelines": {
+      "label": {
+        "en": "Community Guidelines"
+      },
+      "url": "https://abplive.com/guidelines",
+      "webview": true,
+      "version": "v1.1",
+      "last_updated": "2024-12-01"
+    },
+    "help_center": {
+      "label": {
+        "en": "Help Center"
+      },
+      "url": "https://help.abplive.com",
+      "webview": true
+    },
+    "contact_us": {
+      "label": {
+        "en": "Contact Us"
+      },
+      "url": "https://abplive.com/contact",
+      "webview": true
+    },
+    "advertise_with_us": {
+      "label": {
+        "en": "Advertise With Us"
+      },
+      "url": "https://advertise.abplive.com",
+      "webview": false,
+      "open_external": true
+    },
+    "about_abp": {
+      "label": {
+        "en": "About ABP Network"
+      },
+      "url": "https://abp.live/about",
+      "webview": false,
+      "open_external": true
+    }
+  },
+  "support": {
+    "email": "support@abplive.com",
+    "phone": "+91-XXXXXXXXXX",
+    "chat_enabled": true,
+    "chat_url": "https://help.abplive.com/chat",
+    "faq_url": "/v1/support/faq",
+    "report_issue_url": "/v1/support/report",
+    "social": {
+      "twitter": "https://twitter.com/abplive",
+      "facebook": "https://facebook.com/abplive",
+      "instagram": "https://instagram.com/abplive",
+      "youtube": "https://youtube.com/@abplive"
+    }
+  }
+}

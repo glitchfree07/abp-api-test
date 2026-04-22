@@ -1,0 +1,52 @@
+{
+  "error": "",
+  "message": "",
+  "status": "success",
+  "statusCode": 200,
+  "meta": {
+    "page": "setup_profile",
+    "page_version": "1.0.0",
+    "language": "hi",
+    "region": "IN",
+    "generated_at": "2025-04-07T10:31:00Z",
+    "cache_ttl_seconds": 0,
+    "request_id": "req_setup_7b4e2c9a",
+    "profile": {
+      "id": "profile_001",
+      "kids_mode": false,
+      "subscription_tier": "free"
+    }
+  },
+  "response": {
+    "current_avatar_url": "https://cdn.abplive.com/avatars/user/profile_001.jpg",
+    "is_editable": true,
+    "upload_enabled": false,
+    "avatar_options_url": "/v1/profiles/avatars",
+    "avatar_options": [
+      {
+        "id": "av_default_male",
+        "url": "https://cdn.abplive.com/avatars/default_avatar_male.png",
+        "type": "illustration",
+        "label": { "en": "Male" }
+      },
+      {
+        "id": "av_default_female",
+        "url": "https://cdn.abplive.com/avatars/default_avatar_female.png",
+        "type": "illustration",
+        "label": { "en": "Female" }
+      },
+      {
+        "id": "av_default_neutral",
+        "url": "https://cdn.abplive.com/avatars/default_avatar_neutral.png",
+        "type": "illustration",
+        "label": { "en": "Neutral" }
+      },
+      {
+        "id": "av_kids",
+        "url": "https://cdn.abplive.com/avatars/kids_avatar_orange.png",
+        "type": "illustration",
+        "label": { "en": "Kids" }
+      }
+    ]
+  }
+}
