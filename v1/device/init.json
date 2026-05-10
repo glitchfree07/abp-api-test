@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "timestamp": "2026-05-10T17:33:47+00:00",
+  "data": {
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5b3VyLWFwcCIsImlhdCI6MTc3ODQzNDQyNywiZXhwIjoxNzc4NTIwODI3LCJkYXRhIjp7InR5cGUiOiJndWVzdCIsImRldmljZV9pZCI6IjEyMzQ1NiJ9fQ.0G2ft_ZfHseEGHGQIIqADGQeDSEtBarjBVQoE0-8N4c",
+    "user_type": "guest"
+  }
+}
