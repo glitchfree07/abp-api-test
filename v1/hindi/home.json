@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-05-10T17:48:56+00:00",
+  "timestamp": "2026-05-11T12:06:14+00:00",
   "data": {
     "meta": {
       "page": "home",
@@ -17,7 +17,8 @@
           "card_type": 1,
           "rail_id": "rail_hero_carousel",
           "rail_type": "hero_carousel",
-          "ads_url": "",
+          "ads_url": "https://pubads.g.doubleclick.net/gampad/ads?iu=/22876760397/connected_tv_fs_livetv_preroll&vpos=preroll&description_url=https%3A%2F%2F.abplive.com&tfcd=0&npa=0&sz=640x480&gdfp_req=1&unviewed_position_start=1&plcmt=1&output=vast&cust_params=site%3Dhindi&env=vp&impl=s&correlator=&ppid=&rdid=&omid_partner=Exoplayer&ad_rule=0&gdpr=1&vid=",
+          "midRoll": "https://pubads.g.doubleclick.net/gampad/ads?iu=/22876760397/Connected_TV_FS_LiveTV_Midroll&vpos=midroll&description_url=https%3A%2F%2F.abplive.com&tfcd=0&npa=0&sz=640x480&gdfp_req=1&unviewed_position_start=1&plcmt=1&output=vast&cust_params=site%3Dhindi&env=vp&impl=s&correlator=",
           "see_all_label": null,
           "data": [
             {
@@ -57,6 +58,19 @@
               "is_mp4": 0
             }
           ]
+        },
+        {
+          "title": "Banner Top",
+          "subtitle": "",
+          "card_type": 2,
+          "rail_id": "rail_hero_carousel",
+          "rail_type": "",
+          "ads_url": "",
+          "see_all_label": null,
+          "data": {
+            "banner": "https://cdn.abplive.com/onecms/images/uploaded-images/2025/12/17/1483edf587cbfa3afd96ec39728648d81765960124026264_original.gif",
+            "click_url": "https://d2g1p0cv65b13g.cloudfront.net/abphls/2022/07/bWVkLTE2NTg4NDA2NTg9z.m3u8"
+          }
         },
         {
           "title": "",
@@ -658,6 +672,19 @@
               "capsule": ""
             }
           ]
+        },
+        {
+          "title": "Banner Bottom",
+          "subtitle": "",
+          "card_type": 2,
+          "rail_id": "rail_hero_carousel",
+          "rail_type": "",
+          "ads_url": "",
+          "see_all_label": null,
+          "data": {
+            "banner": "https://feeds.abplive.com/onecms/images/uploaded-images/2025/12/12/ad0f6fb681bcc0df6ff1a3e5e9915fef1765539746654992_original.gif",
+            "click_url": "https://d2g1p0cv65b13g.cloudfront.net/abphls/2022/07/bWVkLTE2NTg4NDA2NTg9z.m3u8"
+          }
         },
         {
           "title": "Short2",
