@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-05-12T04:29:29+00:00",
+  "timestamp": "2026-05-12T06:28:29+00:00",
   "data": {
     "meta": {
       "page": "home",
@@ -26,7 +26,7 @@
               "thumbnail_image": "https://static.abplive.com/frontend/images/nw-hindi-og.png",
               "poster_image": "https://static.abplive.com/frontend/images/nw-hindi-og.png",
               "lg_poster_image": "https://staticlg.abplive.in/frontend/images/nw-hindi-og.png",
-              "video_url": "https://static.abplive.com/frontend/images/nw-hindi-og.png",
+              "video_url": "https://d1uzioubx65z5f.cloudfront.net/ctv-streaming/abpnews-ctv/master.m3u8",
               "content_type": "live_channel",
               "slot_type": "",
               "is_youtube": 0,
